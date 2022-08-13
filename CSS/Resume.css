@@ -1,0 +1,22 @@
+#details{
+    text-align: left;
+    
+}
+body{
+    text-align: left;
+    padding-left: 50px;
+}
+#profiles a{
+    text-decoration: none;
+    
+}
+#head{
+   
+    border: 1em solid black;
+}
+#Courses a{
+    text-decoration: none;
+}
+#Internships a{
+    text-decoration: none;
+}
