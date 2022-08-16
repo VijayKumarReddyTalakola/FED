@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Position Example </title>
+    <style>
+        #header{
+            position: relative;
+            height: 35px;
+            width:70%;
+            border: 2px solid;
+            border-color: skyblue;
+            font-weight: bolder;
+            background-color:rgba(0, 251, 255, 0.248);
+        }
+        #footer{
+            height: 30px;
+            width:68%;
+            border: 2px ;
+            border: 2px solid ;
+            border-color:skyblue;
+            font-weight: bolder;
+            background-color:rgba(0, 251, 255, 0.248);
+        }
+        #content{
+            position: relative;
+            height: 150px;
+            width:70%;
+            margin-left: 30px;
+            border: 2px solid;
+            border-color: pink;
+            font-weight: bolder;
+            background-color:rgba(253, 192, 255, 0.407);
+            
+        }
+        #content-1{
+            position: absolute;
+            top: 0%;
+            left: 60%;
+            height: 25px;
+            width: 60%;
+            border: 3px solid;
+            border-color: rgba(255, 217, 100, 0.607);
+            font-weight: bolder;
+            background-color:rgba(255, 217, 100, 0.607);
+        }
+        #content-2{
+            position: absolute;
+            background-color:rgba(255, 217, 100, 0.607);
+            border: 3px solid;
+            border-color: rgba(255, 217, 100, 0.607);
+            left: 20%;
+            height: 25%;
+            top: 20px;
+            width: 70%;
+            bottom: 50px;   
+        }
+        #content-3{
+            position: absolute;
+            background-color: rgba(255, 217, 100, 0.607);
+            border: 3px solid;
+            border-color: rgba(255, 217, 100, 0.607);
+            left: 13%;
+            height: 15%;
+            top: 70%;
+            width: 70%;
+            bottom: 50px;   
+        }
+    </style>
+</head>
+<body>
+    <div id="header">Header
+        <div id="content-1">Content1</div>
+    </div>
+    <div id="content">Content
+        <div id="content-2">Content2</div>
+        <div id="content-3">Content3</div>
+    </div>
+    <div id="footer">Footer</div>
+</body>
+</html>
