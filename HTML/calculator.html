@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <script src="calculator.js"></script>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div>
+    <table >
+        <tr>
+            <td colspan="3"><input size="10px" type="text" id="textbox"></td>
+            <td><input type="button" value="c" onclick="clr()" /> </td>
+        </tr>
+        <tr>
+            <td><input type="button" onclick="setText('1')" value="1"> </td>
+            <td><input type="button" onclick="setText('2')" value="2"> </td>
+            <td><input type="button" onclick="setText('3')" value="3"> </td>
+            <td><input type="button" onclick='div()' value="/"> </td>
+        </tr>
+        <tr>
+            <td><input type="button" onclick="setText('4')" value="4"> </td>
+            <td><input type="button" onclick="setText('5')" value="5"> </td>
+            <td><input type="button" onclick="setText('6')" value="6"> </td>
+            <td><input type="button" onclick='mul()' value="*"> </td>
+        </tr>
+        <tr>
+            <td><input type="button" onclick="setText('7')" value="7"> </td>
+            <td><input type="button" onclick="setText('8')" value="8"> </td>
+            <td><input type="button" onclick="setText('9')" value="9"> </td>
+            <td><input type="button" onclick='sub()' value="-"> </td>
+        </tr>
+        <tr>
+            <td><input type="button" onclick="setText('0')" value="0"> </td>
+            <td><input type="button" onclick="setText('.')" value="."> </td>
+            <td><input type="button" onclick="result()" value="="> </td>
+    
+            <td><input type="button"  onclick='add()' value="+"> </td>
+        </tr>
+    </table>
+    </div>
+</body>
+</html>
